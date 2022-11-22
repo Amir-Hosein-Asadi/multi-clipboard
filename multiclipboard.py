@@ -8,8 +8,12 @@ import json
 #clipboard.copy("abs")
 #-----------------------------------------------------------------------------
 #run this python script directly from command line
-
+#-----------------------------------------------------------------------------
 #print(sys.argv[1:])
 #print(sys.argv)
+#-----------------------------------------------------------------------------
+#if statement that checks exactly one command
 
-#if statement that checks 
+if len(sys.argv) == 2:
+    command = sys.argv[1]
+    print(command)
