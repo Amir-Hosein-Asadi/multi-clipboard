@@ -4,7 +4,12 @@ import json
 
 #data = clipboard.paste()
 #print(data)
-
+#-----------------------------------------------------------------------------
 #clipboard.copy("abs")
+#-----------------------------------------------------------------------------
+#run this python script directly from command line
 
-#run this python script directly  
+#print(sys.argv[1:])
+#print(sys.argv)
+
+#if statement that checks 
